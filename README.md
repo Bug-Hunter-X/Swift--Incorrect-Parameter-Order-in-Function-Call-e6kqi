@@ -1,0 +1,2 @@
+# Swift: Incorrect Parameter Order in Function Call
+This example showcases a potential pitfall in Swift where incorrect parameter order in a function call does not produce an error but leads to incorrect results. The `calculateArea` function calculates the area of a rectangle; however, if you accidentally swap the order of the parameters when calling it, the program will compile without error but will calculate an incorrect area.  This is a problem only if the parameters are of the same data type.
